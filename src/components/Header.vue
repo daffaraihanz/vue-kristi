@@ -96,4 +96,10 @@ export default {
 .logo {
   text-align: left;
 }
+
+@media screen and (max-width: 500px) {
+  .cart-hover {
+    margin-left: 100px;
+  }
+}
 </style>
