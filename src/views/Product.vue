@@ -123,4 +123,16 @@ export default {
 .pt {
   margin: 0px 5px;
 }
+
+@media screen and (max-width: 500px) {
+  .product-big-img {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .product-big-img {
+    height: 450px;
+  }
+}
 </style>

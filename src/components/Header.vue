@@ -102,4 +102,13 @@ export default {
     margin-left: 100px;
   }
 }
+
+.si-text:hover {
+  background: rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+
+.si-text {
+  transition: 0.3s;
+}
 </style>

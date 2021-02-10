@@ -10,30 +10,30 @@
             :autoplay="true"
             :autoplayHoverPause="true"
             :autoplayTimeout="2000"
-            :responsive="{0:{items:1.5,nav:false},600:{items:2},850:{items:3},1199:{items:5}}"
+            :responsive="{0:{items:1,nav:true},600:{items:2},850:{items:3},1199:{items:5}}"
           >
             <div class="product-item" v-for="myKatalog in katalog" v-bind:key="myKatalog.id">
               <div class="pi-pic">
                 <img :src="myKatalog.image" alt />
                 <ul>
                   <li class="w-icon active">
-                    <a href="#">
+                    <router-link to="/product">
                       <i class="icon_bag_alt"></i>
-                    </a>
+                    </router-link>
                   </li>
                   <li class="quick-view">
                     <router-link to="/product">+ Quick View</router-link>
                   </li>
                   <li class="w-icon">
-                    <a href="#">
-                      <i class="fa fa-random"></i>
-                    </a>
+                    <router-link to="/product">
+                      <i class="icon_bag_alt"></i>
+                    </router-link>
                   </li>
                 </ul>
               </div>
               <div class="pi-text">
                 <div class="catagory-name">{{ myKatalog.category }}</div>
-                <a href="#">
+                <a href>
                   <h5>{{ myKatalog.title }}</h5>
                 </a>
                 <div class="product-price">{{ myKatalog.price }}</div>

@@ -43,18 +43,18 @@
               <img src="img/products/women-2.jpg" alt />
               <ul>
                 <li class="w-icon active">
-                  <a href="#">
+                  <a href>
                     <i class="icon_bag_alt"></i>
                   </a>
                 </li>
                 <li class="quick-view">
-                  <a href="#">+ Quick View</a>
+                  <a href>+ Quick View</a>
                 </li>
               </ul>
             </div>
             <div class="pi-text">
               <div class="catagory-name">Shoes</div>
-              <a href="#">
+              <a href>
                 <h5>Guangzhou sweater</h5>
               </a>
               <div class="product-price">$13.00</div>
@@ -67,18 +67,18 @@
               <img src="img/products/women-3.jpg" alt />
               <ul>
                 <li class="w-icon active">
-                  <a href="#">
+                  <a href>
                     <i class="icon_bag_alt"></i>
                   </a>
                 </li>
                 <li class="quick-view">
-                  <a href="#">+ Quick View</a>
+                  <a href>+ Quick View</a>
                 </li>
               </ul>
             </div>
             <div class="pi-text">
               <div class="catagory-name">Towel</div>
-              <a href="#">
+              <a href>
                 <h5>Pure Pineapple</h5>
               </a>
               <div class="product-price">$34.00</div>
@@ -91,18 +91,18 @@
               <img src="img/products/women-4.jpg" alt />
               <ul>
                 <li class="w-icon active">
-                  <a href="#">
+                  <a href>
                     <i class="icon_bag_alt"></i>
                   </a>
                 </li>
                 <li class="quick-view">
-                  <a href="#">+ Quick View</a>
+                  <a href>+ Quick View</a>
                 </li>
               </ul>
             </div>
             <div class="pi-text">
               <div class="catagory-name">Towel</div>
-              <a href="#">
+              <a href>
                 <h5>Converse Shoes</h5>
               </a>
               <div class="product-price">$34.00</div>

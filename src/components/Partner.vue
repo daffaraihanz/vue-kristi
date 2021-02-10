@@ -6,7 +6,7 @@
         :dots="false"
         :nav="false"
         :autoplay="true"
-        :items="5"
+        :responsive="{0:{items:3,nav:false},600:{items:4},850:{items:4},1199:{items:5}}"
         :autolay="true"
         :autoplayTimeout="1500"
         :loop="true"
